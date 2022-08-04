@@ -1,0 +1,54 @@
+@import "src/styles/variables";
+
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: $white;
+  border-radius: 10px;
+  padding: 20px;
+  width: 370px;
+  margin-bottom: 29px;
+}
+.img{
+  width: 70px;
+  height: 70px;
+  border-radius: 100%;
+  overflow: hidden;
+  margin-bottom: 20px;
+  img{
+    width: 100%;
+    height: 100%;
+  }
+}
+.name, .email, .phone, .position{
+  font-size: 16px;
+  line-height: 26px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 100%;
+  text-align: center;
+}
+.name{
+  margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 1170px) {
+  .container{
+    width: calc(33% - 20px);
+  }
+}
+@media only screen and (max-width: 768px) {
+  .container{
+    width: calc(50% - 8px);
+    margin-bottom: 16px;
+  }
+}
+@media only screen and (max-width: 380px) {
+  .container{
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}

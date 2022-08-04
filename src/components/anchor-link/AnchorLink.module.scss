@@ -1,0 +1,13 @@
+@import "src/styles/variables";
+
+.link{
+  width: 100px;
+  height: 34px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: $yellow;
+  border-radius: 80px;
+  font-size: 16px;
+  margin-left: 10px;
+}

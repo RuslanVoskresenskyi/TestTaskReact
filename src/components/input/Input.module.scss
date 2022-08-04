@@ -1,0 +1,44 @@
+@import "src/styles/variables";
+
+.container{
+  position: relative;
+}
+.input{
+  margin: 0;
+  padding: 14px 16px;
+  width: 380px;
+  max-width: 100%;
+  border: 1px solid $light-silver;
+  border-radius: 4px;
+  font-size: 16px;
+  line-height: 26px;
+  color: $dark-silver;
+  &::placeholder{
+    color: $dark-silver;
+  }
+  background-color: transparent;
+}
+.error, .example{
+  position: absolute;
+  bottom: -4px;
+  left: 15px;
+  font-size: 12px;
+  line-height: 14px;
+  transform: translateY(100%);
+}
+.error{
+  color: $red;
+}
+.example{
+  color: $dark-silver;
+}
+.radio_block{
+  display: flex;
+  align-items: center;
+}
+.radio_name{
+  font-size: 16px;
+  line-height: 16px;
+  margin-left: 12px;
+  color: $black;
+}

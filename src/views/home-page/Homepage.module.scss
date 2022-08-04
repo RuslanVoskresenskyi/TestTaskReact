@@ -1,0 +1,10 @@
+@import "src/styles/variables";
+
+.container{
+  width: 1170px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+.wrapper{
+  background-color: $wrapper-background;
+}

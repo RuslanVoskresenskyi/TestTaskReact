@@ -1,0 +1,9 @@
+@import "src/styles/variables";
+
+.error_message{
+  font-size: 20px;
+  line-height: 20px;
+  margin: 0 auto 50px;
+  text-align: center;
+  color: $dark-silver;
+}

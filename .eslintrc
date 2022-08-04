@@ -1,0 +1,13 @@
+{
+  "extends": [
+      "react-app"
+  ],
+  "rules": {
+//    "no-console": "warn",
+    "quotes": ["error", "single"],
+    "jsx-quotes": ["error", "prefer-single"],
+    "semi": ["error", "never"],
+    "indent": ["warn", 2],
+    "object-curly-spacing": ["error", "always"]
+  }
+}
